@@ -3,6 +3,9 @@ import pandas as pd
 
 def give_head(dataframe : pd.DataFrame):
     return dataframe.head()
+    
+def give_tail(dataframe : pd.DataFrame):
+    return dataframe.tail()
 
 if __name__ == "__main__":
     dataframe = pd.DataFrame({"Col1": [1.0, 2.0], "Col2": [3.0, 4.0]})
